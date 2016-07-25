@@ -40,6 +40,10 @@
         "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\drawable\\grid_view_12.jpg"
     },
     {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\eoe_android.png",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\drawable\\eoe_android.png"
+    },
+    {
         "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\grid_view_02.gif",
         "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\drawable\\grid_view_02.gif"
     },
