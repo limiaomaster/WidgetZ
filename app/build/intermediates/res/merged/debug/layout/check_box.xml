@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+<CheckBox android:id="@+id/checkBox1"
+     android:text="Android 4.0 Ice Cream Sandwich（冰激凌三明治）"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+/>
+ 
+<CheckBox android:id="@+id/checkBox2"
+     android:text="Android 4.1/4.2/4.3 Jelly Bean（果冻豆）"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:typeface="serif"
+/>
+ 
+<CheckBox android:id="@+id/checkBox3"
+     android:text="Android 4.4 KitKat（巧克力棒）"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textStyle="bold"
+/>
+ 
+<CheckBox android:id ="@+id/checkBox4"
+     android:text="Android 5.0/5.1 Lollipop（棒棒糖）"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textStyle="italic"
+/>
+
+
+	<Button android:id="@+id/get_view_button" 
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="获取复选框的值" />
+
+	 
+    
+</LinearLayout>

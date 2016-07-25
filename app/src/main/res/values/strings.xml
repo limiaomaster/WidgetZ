@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">WidgetZ</string>
+    <string name="app_name">WidgetZ</string>
+    <string name="select_your_province">please选择你的省份：</string>
+    <string name="select_your_state">please选择你的国家：</string>
+    <string name="select_your_planet">please选择你的星球：</string>
+    <string name="rating">电影的评分星星：</string>
+    
+</resources>

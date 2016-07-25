@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\check_box.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\check_box.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_show1.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\image_show1.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\editview.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\editview.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_show2.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\image_show2.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\grid_view.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\grid_view.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\text.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\text.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new1.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\new1.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\togglebutton.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\togglebutton.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\spinner.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_view1.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\image_view1.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\time_picker.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\time_picker.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\progress_bar.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\progress_bar.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\date_picker.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\date_picker.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\autocomplete.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\autocomplete.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_view2.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\image_view2.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\rating_bar.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\rating_bar.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\seek_bar.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\seek_bar.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_demo.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\tab_demo.xml"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\layout\\radio_group.xml",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\layout\\radio_group.xml"
+    }
+]

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used in Spinner/spinner_2.java -->
+    
+    <string-array name="Arr_state">
+        <item>俄罗斯</item>
+        <item>加拿大</item>
+        <item>中国</item>
+        <item>美国</item>
+        <item>巴西</item>
+        <item>印度</item>
+    </string-array>
+    <string-array name="Arr_planet">
+        <item>太阳</item>
+        <item>水星</item>
+        <item>金星</item>
+        <item>地球</item>
+        <item>火星</item>
+        <item>木星</item>
+        <item>土星</item>
+    </string-array>
+</resources>
