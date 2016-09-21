@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+            <item name="colorPrimary">@color/darkorchid</item>
+            <item name="colorPrimaryDark">@android:color/transparent</item>
+            <item name="android:windowBackground">@null</item>
+            <item name="android:textColorPrimary">@color/darkgreen</item>
+            <item name="colorAccent">@color/darkorchid</item>
+            <item name="android:statusBarColor">@android:color/transparent</item>
+
+            <item name="android:contentInsetStart">0dp</item>
+            <item name="android:contentInsetEnd">0dp</item>
+        </style>
+</resources>

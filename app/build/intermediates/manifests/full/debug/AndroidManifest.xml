@@ -6,14 +6,16 @@
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="24" />
+        android:targetSdkVersion="23" />
 
     <application
         android:icon="@drawable/icon"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
         <activity
             android:name="m.usewidget.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:theme="@style/AppBaseTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,7 +37,10 @@
         <activity android:name="m.usewidget.ImageViewActivity1" />
         <activity android:name="m.usewidget.ImageViewActivity2" />
         <activity android:name="m.usewidget.ImageButtonActivity" />
-        <activity android:name="m.usewidget.ImageShowActivity1" />
+        <activity
+            android:name="m.usewidget.ImageShowActivity1"
+            android:theme="@style/AppBaseTheme" >
+        </activity>
         <activity android:name="m.usewidget.ImageShowActivity2" />
         <activity android:name="m.usewidget.GridViewActivity" />
         <activity android:name="m.usewidget.TabDemoActivity" />

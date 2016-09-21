@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="m.usewidget"
-      android:versionCode="1"
-      android:versionName="1.0.0">
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+      package="m.usewidget">
       
-
-      
-    <application android:icon="@drawable/icon" 
-        		 android:label="@string/app_name">
-        <activity android:name=".MainActivity"
-            	  android:label="@string/app_name">
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppBaseTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
       <activity android:name="ToggleButtonActivity"></activity>  
      <activity android:name="ViewTextActivity"></activity>
      <activity android:name="EditTextActivity"></activity>
@@ -30,7 +32,10 @@
      <activity android:name="ImageViewActivity1"></activity>
      <activity android:name="ImageViewActivity2"></activity>
      <activity android:name="ImageButtonActivity"></activity>
-     <activity android:name="ImageShowActivity1"></activity>
+     <activity
+         android:name="ImageShowActivity1"
+         android:theme="@style/AppBaseTheme">
+     </activity>
      <activity android:name="ImageShowActivity2"></activity>
      <activity android:name="GridViewActivity"></activity>
      <activity android:name=".TabDemoActivity"></activity>

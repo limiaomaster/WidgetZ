@@ -12,12 +12,12 @@
         "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\mipmap\\baiyun3.jpg"
     },
     {
-        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\jiangyuchen6.jpg",
-        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\mipmap\\jiangyuchen6.jpg"
-    },
-    {
         "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\jiangyuchen_love.jpg",
         "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\mipmap\\jiangyuchen_love.jpg"
+    },
+    {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\jiangyuchen6.jpg",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\mipmap\\jiangyuchen6.jpg"
     },
     {
         "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\mipmap\\baiyun5.jpg",

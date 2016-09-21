@@ -1,19 +1,22 @@
 package m.usewidget;
 
-import m.usewidget.R;
-
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_main);
+        toolbar.setTitle("主Activity");
+        toolbar.setSubtitle("副标题");
+        setSupportActionBar(toolbar);
 		find_and_modify_button();
 	}
 

@@ -1,22 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-       xmlns:android="http://schemas.android.com/apk/res/android"
-       android:layout_width="fill_parent"
-       android:layout_height="fill_parent">
-       
-       <ImageSwitcher 
-       android:id="@+id/switcher"
-              android:layout_width="fill_parent" 
-              android:layout_height="fill_parent"
-              android:layout_alignParentTop="true"
-              android:layout_alignParentLeft="true" />
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:iosched="http://schemas.android.com/tools"
+
+    android:fitsSystemWindows="false">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fantexi"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#aa000000"/>
+
+    <RelativeLayout
+        android:id="@+id/toobar_player"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:fitsSystemWindows="false">
+        <ImageView
+            android:id="@+id/back_playing"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/actionbar_back"
+            android:layout_marginStart="5dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginEnd="5dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/back_playing">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:text="爱你"
+                android:textColor="@color/white"
+                android:gravity="bottom"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:text="王心凌"
+                android:textColor="@color/darkgray"
+                android:gravity="top"
+                android:textSize="14sp"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/actionbar_share"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:id="@+id/imageView"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"/>
+    </RelativeLayout>
+    <View
+        android:id="@+id/line"
+        android:background="@drawable/play_topbar_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_below="@id/toobar_player"/>
+
+    <ImageSwitcher
+        android:id="@+id/switcher"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gallery"
+        android:layout_below="@+id/line" />
               
-       <Gallery android:id="@+id/gallery" 
-       android:background="#55000000"
+       <Gallery
+           android:id="@+id/gallery"
+             android:background="#55000000"
               android:layout_width="fill_parent" 
               android:layout_height="60dp"
               android:layout_alignParentBottom="true"
-              android:layout_alignParentLeft="true"
+
               android:gravity="center_vertical" 
-              android:spacing="16dp" />
+              android:spacing="40dp" />
+
+
 </RelativeLayout>

@@ -1,120 +1,130 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:3:7-28
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:4:7-28
 		INJECTED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml
 		INJECTED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:5:7-34
-		INJECTED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml
-		INJECTED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml
-	android:versionCode
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:4:7-30
 		INJECTED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml
 		INJECTED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:3:5-63
+	android:versionCode
+		INJECTED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml
+		INJECTED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml
 application
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:9:5-41:15
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:6:5-46:15
+MERGED from [com.android.support:appcompat-v7:23.0.0] D:\programfiles\workspace\WidgetZ\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] D:\programfiles\workspace\WidgetZ\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.0] D:\programfiles\workspace\WidgetZ\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:10:12-44
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:8:9-41
 	android:icon
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:9:18-47
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:7:9-38
+	android:theme
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:9:9-44
 activity#m.usewidget.MainActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:11:9-17:20
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:10:9-18:20
 	android:label
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:12:16-48
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:12:13-45
+	android:theme
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:13:13-48
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:11:19-47
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:11:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:13:13-16:29
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:15:17-77
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:15:27-74
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:16:27-74
 activity#m.usewidget.ToggleButtonActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:18:7-64
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:20:7-64
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:18:17-52
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:20:17-52
 activity#m.usewidget.ViewTextActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:19:6-59
-	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:19:16-47
-activity#m.usewidget.EditTextActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:20:6-59
-	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:20:16-47
-activity#m.usewidget.CheckBoxActivity
 ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:21:6-59
 	android:name
 		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:21:16-47
+activity#m.usewidget.EditTextActivity
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:22:6-59
+	android:name
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:22:16-47
+activity#m.usewidget.CheckBoxActivity
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:23:6-59
+	android:name
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:23:16-47
 activity#m.usewidget.RadioGroupActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:22:6-61
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:24:6-61
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:22:16-49
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:24:16-49
 activity#m.usewidget.SpinnerActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:23:6-58
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:25:6-58
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:23:16-46
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:25:16-46
 activity#m.usewidget.AutoCompleteTextViewActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:24:6-71
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:26:6-71
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:24:16-59
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:26:16-59
 activity#m.usewidget.DatePickerActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:25:6-61
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:27:6-61
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:25:16-49
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:27:16-49
 activity#m.usewidget.TimePickerActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:26:6-61
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:28:6-61
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:26:16-49
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:28:16-49
 activity#m.usewidget.ProgressBarActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:27:6-62
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:29:6-62
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:27:16-50
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:29:16-50
 activity#m.usewidget.SeekBarActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:28:6-58
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:30:6-58
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:28:16-46
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:30:16-46
 activity#m.usewidget.RatingBarActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:29:6-60
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:31:6-60
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:29:16-48
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:31:16-48
 activity#m.usewidget.ImageViewActivity1
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:30:6-61
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:32:6-61
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:30:16-49
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:32:16-49
 activity#m.usewidget.ImageViewActivity2
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:31:6-61
-	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:31:16-49
-activity#m.usewidget.ImageButtonActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:32:6-62
-	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:32:16-50
-activity#m.usewidget.ImageShowActivity1
 ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:33:6-61
 	android:name
 		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:33:16-49
+activity#m.usewidget.ImageButtonActivity
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:34:6-62
+	android:name
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:34:16-50
+activity#m.usewidget.ImageShowActivity1
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:35:6-38:17
+	android:theme
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:37:10-45
+	android:name
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:36:10-43
 activity#m.usewidget.ImageShowActivity2
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:34:6-61
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:39:6-61
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:34:16-49
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:39:16-49
 activity#m.usewidget.GridViewActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:35:6-59
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:40:6-59
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:35:16-47
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:40:16-47
 activity#m.usewidget.TabDemoActivity
-ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:36:6-59
+ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:41:6-59
 	android:name
-		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:36:16-47
+		ADDED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml:41:16-47
 uses-sdk
 INJECTED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.0.0] D:\programfiles\workspace\WidgetZ\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.0] D:\programfiles\workspace\WidgetZ\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.0] D:\programfiles\workspace\WidgetZ\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml
 		INJECTED from D:\programfiles\workspace\WidgetZ\app\src\main\AndroidManifest.xml

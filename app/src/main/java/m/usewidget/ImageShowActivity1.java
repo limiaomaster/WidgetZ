@@ -1,41 +1,42 @@
 package m.usewidget;
- 
-import m.usewidget.R;
 
-import android.app.Activity;
 import android.content.Context;
+import android.os.Build;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.view.WindowManager;
 import android.view.animation.AnimationUtils;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.EditText;
 import android.widget.Gallery;
+import android.widget.Gallery.LayoutParams;
 import android.widget.ImageSwitcher;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.ViewSwitcher;
-import android.widget.Gallery.LayoutParams;
 
-public class ImageShowActivity1 extends Activity implements AdapterView.OnItemSelectedListener, ViewSwitcher.ViewFactory {
+public class ImageShowActivity1 extends AppCompatActivity implements AdapterView.OnItemSelectedListener, ViewSwitcher.ViewFactory {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-
+        //requestWindowFeature(Window.FEATURE_NO_TITLE);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            Window window = getWindow();
+            // Translucent status bar
+            window.setFlags(
+                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,
+                    WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+        }
         setContentView(R.layout.image_show1);
-        setTitle("ImageShowActivity");
+
+
 
         mSwitcher = (ImageSwitcher) findViewById(R.id.switcher);
         mSwitcher.setFactory(this);
-        mSwitcher.setInAnimation(AnimationUtils.loadAnimation(this,
-                android.R.anim.fade_in));
-        mSwitcher.setOutAnimation(AnimationUtils.loadAnimation(this,
-                android.R.anim.fade_out));
+        mSwitcher.setInAnimation(AnimationUtils.loadAnimation(this, android.R.anim.fade_in));
+        mSwitcher.setOutAnimation(AnimationUtils.loadAnimation(this, android.R.anim.fade_out));
 
         Gallery g = (Gallery) findViewById(R.id.gallery);
         g.setAdapter(new ImageAdapter(this));
@@ -51,9 +52,9 @@ public class ImageShowActivity1 extends Activity implements AdapterView.OnItemSe
 
     public View makeView() {
         ImageView i = new ImageView(this);
-        i.setBackgroundColor(0xFF000000);
+        //i.setBackgroundColor(0xFF000000);
         i.setScaleType(ImageView.ScaleType.FIT_CENTER);
-        i.setLayoutParams(new ImageSwitcher.LayoutParams(LayoutParams.FILL_PARENT,LayoutParams.FILL_PARENT));
+        i.setLayoutParams(new ImageSwitcher.LayoutParams(LayoutParams.MATCH_PARENT,LayoutParams.MATCH_PARENT));
         return i;
     }
 
@@ -81,8 +82,7 @@ public class ImageShowActivity1 extends Activity implements AdapterView.OnItemSe
 
             i.setImageResource(mThumbIds[position]);
             i.setAdjustViewBounds(true);
-            i.setLayoutParams(new Gallery.LayoutParams(
-                    LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
+            i.setLayoutParams(new Gallery.LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT));
             i.setBackgroundResource(R.drawable.picture_frame);
             return i;
         }

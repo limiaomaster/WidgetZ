@@ -4,6 +4,10 @@
         "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\drawable-hdpi\\jiangyuchen_11sj.jpg"
     },
     {
+        "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\fantexi.jpg",
+        "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\drawable-hdpi\\fantexi.jpg"
+    },
+    {
         "merged": "D:\\programfiles\\workspace\\WidgetZ\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\jiangyuchen_11lj.jpg",
         "source": "D:\\programfiles\\workspace\\WidgetZ\\app\\src\\main\\res\\drawable-hdpi\\jiangyuchen_11lj.jpg"
     }

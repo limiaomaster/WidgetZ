@@ -3,11 +3,83 @@
 
     <item
         is-multidex="true"
+        jar="D:\programfiles\SDK\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="D:\programfiles\workspace\WidgetZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.0_7ca63de6548cd0de9a6d5e27c0ca8f7b082464c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\programfiles\workspace\WidgetZ\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="false"
         revision="24.0.0"
         sha1="31dbfd500f8805bdb43fc03ff1fe978b4bf61979">
+        <dex dex="D:\programfiles\workspace\WidgetZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c04ad2675e77691259b05d153aa898a65b7ba771\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\programfiles\workspace\WidgetZ\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="D:\programfiles\workspace\WidgetZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.0.0_29efaa568061aba853c3073ef1d8654c7c74b95b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\programfiles\workspace\WidgetZ\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3e5b3b360c4bac2ea01566ec69a374cdc671998d">
+        <dex dex="D:\programfiles\workspace\WidgetZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_76f7e943c4303fcf1f745c2605769a3f390d053d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\programfiles\workspace\WidgetZ\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="D:\programfiles\workspace\WidgetZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.0.0_097a5e9b80a24e1d80978e0f334bef9f7148b27e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\programfiles\workspace\WidgetZ\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="528658e822e99b5f86154d1da9dd26b1a3558bd3">
+        <dex dex="D:\programfiles\workspace\WidgetZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c04ad2675e77691259b05d153aa898a65b7ba771\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\programfiles\workspace\WidgetZ\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="D:\programfiles\workspace\WidgetZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_58fbb66d521e547c1ddc5836c4784fb100d605e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\programfiles\workspace\WidgetZ\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b45f2b0347735d3ee8ebe1d78c5667e50238e4e3">
+        <dex dex="D:\programfiles\workspace\WidgetZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_76f7e943c4303fcf1f745c2605769a3f390d053d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\programfiles\workspace\WidgetZ\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="a41508e7928cae2bbbe546c2320c88c63225760f">
         <dex dex="D:\programfiles\workspace\WidgetZ\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_c04ad2675e77691259b05d153aa898a65b7ba771\classes.dex" />
     </item>
     <item
